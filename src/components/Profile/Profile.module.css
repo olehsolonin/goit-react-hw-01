@@ -1,0 +1,13 @@
+.ProfileContainer {
+min-width:500px;
+max-width: 800px;
+margin: 0 auto;
+background-color: #fafafa;
+}
+
+.ProfileCard {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	gap: 20px;
+}
