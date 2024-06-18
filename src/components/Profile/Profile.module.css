@@ -3,6 +3,10 @@ min-width:500px;
 max-width: 800px;
 margin: 0 auto;
 background-color: #fafafa;
+margin-bottom: 100px;
+
+border-radius: 10px;
+border: 5px solid black;
 }
 
 .ProfileCard {
@@ -10,4 +14,45 @@ background-color: #fafafa;
 	flex-direction: column;
 	margin: 0 auto;
 	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.ProfileImg {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+}
+
+.profileName {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 32px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+}
+
+.ProfileStats {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 25px;
+	background-color: #d3d3d3;
+
+
+
+}
+
+.statsItem {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	gap: 24px;
+
 }

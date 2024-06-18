@@ -4,15 +4,14 @@ import css from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
 	return (
-	  <div className={css.friendListContainer}>
-		 {friends.map((friend) => (
-			<FriendListItem
-			  key={friend.id}
-			  avatar={friend.avatar}
-			  name={friend.name}
-			  isOnline={friend.isOnline}
-			/>
-		 ))}
-	  </div>
+		<div className={css.friendListContainer}>
+      	<ul className={css.friendList}>
+        	{friends.map(friend => (
+          	<li className={css.friendListItem} key={friend.id}>
+            	<FriendListItem friend={friend} />
+          	</li>
+       	 ))}
+      	</ul>
+    	</div>
 	);
  }

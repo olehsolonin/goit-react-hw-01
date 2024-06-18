@@ -1,0 +1,14 @@
+.friendListContainer {
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+
+.friendList {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+
+}
