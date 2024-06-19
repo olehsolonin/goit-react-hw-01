@@ -4,7 +4,7 @@ import css from "./FriendListItem.module.css";
 export default function FriendListItem({ friend: { avatar, name, isOnline } }) {
   return (
     <div className={css.friendItemCard}>
-      <img className={css.friendItemImg} src={avatar} alt="Avatar" width="48" />
+      <img className={css.friendItemImg} src={avatar} alt="Avatar" width="50" />
       <p className={css.friendItemName}>{name}</p>
       <p
         className={clsx(

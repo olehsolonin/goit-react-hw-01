@@ -1,6 +1,7 @@
 .friendListContainer {
 	margin: 0 auto;
 	margin-bottom: 100px;
+	max-width: 800px;
 }
 
 

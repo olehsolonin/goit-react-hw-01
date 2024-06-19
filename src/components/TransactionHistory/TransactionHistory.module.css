@@ -1,0 +1,31 @@
+.transactionContainer {
+max-width: 800px;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+
+.tableBox {
+	margin: 0 auto;
+	min-width: 600px;
+}
+
+.thead {
+	background-color: #2a2a2a;
+	color: #fff;
+}
+
+.tbody {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.trBox {
+	height: 30px;
+
+}
+
+
+
+.smallBlocks {
+	text-align: center;
+}
